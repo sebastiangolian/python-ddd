@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    ".vscode": true,
+    ".gitignore": true,
+    ".pytest_cache": true,
+    "pyproject.toml": true,
+    "**/__init__.py": true,
+    ".coverage": true,
+    "**/__init__.pyc": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}
